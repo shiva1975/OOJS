@@ -44,3 +44,18 @@ console.log("van3 price "+van3.calculatePrice(4));
 console.log("van3 details "+van3.displayDetails());
 console.log("van3 status "+van3.statusDetails());
 
+
+const car4 = new Car("Audi", "A6", "Silver", 90, "Sedan", "Gasoline", "Rented");
+console.log("car4 price "+car4.calculatePrice(2));
+console.log("car4 details "+car4.displayDetails());
+console.log("car4 status "+car4.statusDetails());
+
+const bike4 = new Bike("Ducati", "Panigale V4", "Red", 120, "Sport", "Petrol", "Rented");
+console.log("bike4 price "+bike4.calculatePrice(3));
+console.log("bike4 details "+bike4.displayDetails());
+console.log("bike4 status "+bike4.statusDetails());
+
+const van4 = new Van("Volkswagen", "Transporter", "Blue", 60, "Cargo", "Diesel", "Rented");
+console.log("van4 price "+van4.calculatePrice(5));
+console.log("van4 details "+van4.displayDetails());
+console.log("van4 status "+van4.statusDetails());

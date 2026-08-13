@@ -11,4 +11,5 @@ class Van extends Vehicle {
     displayDetails() {
         return `${super.displayDetails()}, Fuel Type: ${this.fuelType}`;
     }   
+    
 }

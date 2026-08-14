@@ -22,7 +22,8 @@ class Vehicle {
             return `The vehicle ${this.name} is currently rented.`;
         }
     }
-    showStatus() {
-        return `Status: ${this.status}`;
+     displayVehicleDetails() {
+        return `${this.displayDetails()}, ${this.showStatus()}`;
     }
+
 }

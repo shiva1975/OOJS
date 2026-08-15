@@ -29,4 +29,11 @@ class Truck extends Vehicle {
     typeDetails() {
         return `The vehicle ${this.name} is a ${this.Type}.`;
     }
+    rentDetails() {
+        if (this.status === "Available") {
+            return `The vehicle ${this.name} is available for rent.`;
+        } else if (this.status === "Rented") {
+            return `The vehicle ${this.name} is currently rented.`;
+        }
+    }
 }

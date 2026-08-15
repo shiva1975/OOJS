@@ -23,4 +23,7 @@ class Truck extends Vehicle {
     fuelTypeDetails() {
         return `The vehicle ${this.name} runs on ${this.fuelType}.`;
     }
+    getType() {
+        return this.Type;
+    }
 }

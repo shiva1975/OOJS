@@ -10,4 +10,14 @@ class Truck extends Vehicle {
     displayDetails() {
         return `${super.displayDetails()}, Fuel Type: ${this.fuelType}`;
     }
+    salesDetails() {
+        return `The vehicle ${this.name} is available for sale at a price of ${this.price}.`;
+    }
+    statusDetails() {
+        if (this.status === "Available") {
+            return `The vehicle ${this.name} is available for rent.`;
+        } else if (this.status === "Rented") {
+            return `The vehicle ${this.name} is currently rented.`;
+        }   
+    }
 }

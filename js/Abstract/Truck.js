@@ -7,4 +7,7 @@ class Truck extends Vehicle {
         let totalPrice = super.calculatePrice(days);
         return totalPrice;
     }
+    displayDetails() {
+        return `${super.displayDetails()}, Fuel Type: ${this.fuelType}`;
+    }
 }

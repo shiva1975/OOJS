@@ -20,4 +20,7 @@ class Truck extends Vehicle {
             return `The vehicle ${this.name} is currently rented.`;
         }   
     }
+    fuelTypeDetails() {
+        return `The vehicle ${this.name} runs on ${this.fuelType}.`;
+    }
 }

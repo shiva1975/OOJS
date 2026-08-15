@@ -26,4 +26,7 @@ class Truck extends Vehicle {
     getType() {
         return this.Type;
     }
+    typeDetails() {
+        return `The vehicle ${this.name} is a ${this.Type}.`;
+    }
 }
